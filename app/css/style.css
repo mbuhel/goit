@@ -80,7 +80,7 @@ section {
         content: '';
         height: 2px;
         width: 100px;
-        background: red;
+        background: #f38181;
         position: absolute;
         bottom: 0;
         left: 0;
@@ -175,7 +175,7 @@ header {
     text-decoration: none;
     max-width: 200px;
     cursor: pointer;
-    font-family: montserrat;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
     text-align: center; }
 
@@ -280,13 +280,30 @@ section.team .team_list {
       font-style: italic; }
 
 footer {
-  height: 10vh;
-  background: grey;
-  padding: 10px 90px;
-  display: grid;
-  grid-template-columns: 100px 1fr; }
-  footer nav {
+  padding: 20px 0;
+  border-top: 1px solid #e5e5e5; }
+  footer .container {
     display: flex;
+    align-items: center;
     justify-content: space-between; }
-    footer nav a {
-      font-size: 14px; }
+  footer .copywrite {
+    color: #333333;
+    font-family: "Montserrat", sans-serif; }
+    footer .copywrite a {
+      color: #f38181;
+      text-decoration: none; }
+  footer form input {
+    padding: 1em 2em;
+    color: #cccccc;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid #e7e7e7; }
+  footer form button {
+    border: none;
+    background-color: #95e1d3;
+    padding: 1em 2em;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif; }
