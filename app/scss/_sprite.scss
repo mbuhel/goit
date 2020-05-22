@@ -25,12 +25,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   &:before {
-    color: $icon-color;
-  }
-  &:hover {
-    &:before {
-      color: red;
-    }
+    color: inherit;
   }
 }
 

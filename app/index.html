@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/jquery-ui.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -26,9 +27,11 @@
         </ul>
       </nav>
       <div id="hero-section">
-        <h3 class="subtitle">Creative Template</h3>
-        <h1 class="main-title">Welcome <br>to mogo</h1>
-        <a href="#">Learn more</a>
+        <div class="title_container">
+          <h3 class="subtitle">Creative Template</h3>
+          <h1 class="main-title">Welcome <br>to mogo</h1>
+        </div>
+        <a href="#" class="btn draw-btn">Learn more</a>
       </div>
     </div>
   </header>
@@ -81,43 +84,50 @@
       <div class="team_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, modi. Autem officiis nesciunt aliquam excepturi perspiciatis fuga, doloribus animi dolorum.</div>
       <div class="team_list">
         <div class="team_list__item">
-          <div class="team_list__info">
-            <img src="" alt="" class="team_list__avatar">
-            <nav class="team_list__social">
-              <a href="#"><i></i></a>
-              <a href="#"><i></i></a>
-              <a href="#"><i></i></a>
-              <a href="#"><i></i></a>
-            </nav>
+          <div class="team_list__item_info">
+            <div class="team_list__item_avatar">
+              <img src="../img/team/member1.jpg" alt="bar" srcset="../img/team/member1@2x.jpg 2x" alt="">
+              <nav class="team_list__item_social">
+                <a href="#"><span class="icon icon-facebook"></span></a>
+                <a href="#"><span class="icon icon-instagram"></span></a>
+                <a href="#"><span class="icon icon-twitter"></span></a>
+                <a href="#"><span class="icon icon-pinterest"></span></a>
+              </nav>
+            </div>
           </div>
-          <span class="team_list__name">matthew dix</span>
-          <span class="team_list__position">Graphic Design</span>
+          <div class="team_list__item_name">matthew dix</div>
+          <div class="team_list__item_position">Graphic Design</div>
         </div>
         <div class="team_list__item">
-          <div class="team_list__info">
-            <img src="" alt="" class="team_list__avatar">
-            <nav class="team_list__social">
-              <a href="#"><i></i></a>
-              <a href="#"><i></i></a>
-              <a href="#"><i></i></a>
-              <a href="#"><i></i></a>
-            </nav>
+          <div class="team_list__item_info">
+            <div class="team_list__item_avatar">
+              <img src="../img/team/member2.jpg" alt="bar" srcset="../img/team/member2@2x.jpg 2x" alt="">
+            
+              <nav class="team_list__item_social">
+                <a href="#"><span class="icon icon-facebook"></span></a>
+                <a href="#"><span class="icon icon-instagram"></span></a>
+                <a href="#"><span class="icon icon-twitter"></span></a>
+                <a href="#"><span class="icon icon-pinterest"></span></a>
+              </nav>
+            </div>
           </div>
-          <span class="team_list__name">Cristofer Cambell</span>
-          <span class="team_list__position"></span>
+          <div class="team_list__item_name">Cristofer Cambell</div>
+          <div class="team_list__item_position"></div>
         </div>
         <div class="team_list__item">
-          <div class="team_list__info">
-            <img src="" alt="" class="team_list__avatar">
-            <nav class="team_list__social">
-              <a href="#"><span class="icon icon-facebook"></span></a>
-              <a href="#"><span class="icon icon-instagram"></span></a>
-              <a href="#"><span class="icon icon-twitter"></span></a>
-              <a href="#"><span class="icon icon-pinterest"></span></a>
-            </nav>
+          <div class="team_list__item_info">
+            <div class="team_list__item_avatar">
+              <img src="../img/team/member3.jpg" alt="bar" srcset="../img/team/member3@2x.jpg 2x" alt="">
+              <nav class="team_list__item_social">
+                <a href="#"><span class="icon icon-facebook"></span></a>
+                <a href="#"><span class="icon icon-instagram"></span></a>
+                <a href="#"><span class="icon icon-twitter"></span></a>
+                <a href="#"><span class="icon icon-pinterest"></span></a>
+              </nav>
+            </div>
           </div>
-          <span class="team_list__name">Michael Fertig</span>
-          <span class="team_list__position">Developer</span>
+          <div class="team_list__item_name">Michael Fertig</div>
+          <div class="team_list__item_position">Developer</div>
         </div>
       </div>
     </div>

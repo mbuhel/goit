@@ -1,3 +1,93 @@
 section.team {
-  background:red;
+  .team_description {
+    font-size: 15px;
+    line-height: 24px;
+    color: $description-color;
+    font-family: $roboto;
+    text-align: center;
+  }
+  .team_list {
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    &__item {
+      text-align: center;
+      &_info {
+        &:hover {
+          .team_list__item_social {
+            display: flex;
+          }
+        }
+      }
+      &_avatar {
+        position: relative;
+        img {
+          width: 100%;
+        }
+        &:hover {
+          transition: .2s cubic-bezier(.5,.03,.41,1);
+          img {
+            transform: translate(-10px, -10px);
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(149,225,211,1);
+            -moz-box-shadow: 10px 10px 5px 0px rgba(149,225,211,1);
+            box-shadow: 10px 10px 5px 0px rgba(149,225,211,1);
+          }
+          &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 5;
+            top: -10px;
+            left: -10px;
+            background-image: -webkit-linear-gradient(bottom, #f0e290 0%, #e98a89 100%);
+            background-image: -o-linear-gradient(bottom, #f0e290 0%, #e98a89 100%);
+            background-image: linear-gradient(to top, #f0e290 0%, #e98a89 100%);
+            opacity: .9;
+          }
+          
+        }
+      }
+      &_social {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 10;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        a {
+          text-decoration: none;
+          height: 52px;
+          width: 52px;
+          background: #fce38a;
+          color: #f38181;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &:hover {
+            color: $white-color;
+            background: #f38181;
+          }
+        }
+      }
+      &_name {
+        color: $title-color;
+        font-family: $montserrat;
+        text-transform: uppercase;
+        padding: 25px 0 15px;
+      }
+      &_position {
+        font-size: 15px;
+        line-height: 24px;
+        color: $description-color;
+        font-family: $roboto;
+        font-weight: 300;
+        font-style: italic;
+      }
+    }
+  }
 }
