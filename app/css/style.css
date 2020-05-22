@@ -20,6 +20,12 @@
   .icon:before {
     color: inherit; }
 
+.icon-cart:before {
+  content: ""; }
+
+.icon-search:before {
+  content: ""; }
+
 .icon-seo:before {
   content: ""; }
 
@@ -279,19 +285,23 @@ section.team .team_list {
       font-weight: 300;
       font-style: italic; }
 
-footer {
-  padding: 20px 0;
+footer .container {
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-top: 1px solid #e5e5e5; }
-  footer .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-  footer .copywrite {
-    color: #333333;
-    font-family: "Montserrat", sans-serif; }
-    footer .copywrite a {
-      color: #f38181;
-      text-decoration: none; }
+
+footer .copywrite {
+  color: #333333;
+  font-family: "Montserrat", sans-serif; }
+  footer .copywrite a {
+    color: #f38181;
+    text-decoration: none; }
+
+footer form {
+  display: flex;
+  height: 40px; }
   footer form input {
     padding: 1em 2em;
     color: #cccccc;

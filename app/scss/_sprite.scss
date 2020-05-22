@@ -29,6 +29,16 @@
   }
 }
 
+.icon-cart {
+  &:before {
+    content: $icon-cart; 
+  }
+}
+.icon-search {
+  &:before {
+    content: $icon-search; 
+  }
+}
 .icon-seo {
   &:before {
     content: $icon-seo;

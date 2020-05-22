@@ -44,12 +44,12 @@ header {
           padding: 10px 0;
           &.active,
           &:hover {
-            color: $active-menu-color;
+            color: $yellow-color;
             &:after {
               content: '';
               height: 2px;
               width: 100%;
-              background: $active-menu-color;
+              background: $yellow-color;
               position: absolute;
               bottom: 0;
               left: 0;
