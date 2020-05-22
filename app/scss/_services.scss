@@ -1,3 +1,21 @@
-section.services {
-  background:grey;
+.services {
+  &_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+    &__item {
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      &_logo {
+        grid-column: 1;
+      }
+      &_name {
+        grid-column: 2;
+      }
+      &_description {
+        grid-column: 2;
+        grid-row: 2;
+      }
+    }
+  }
 }

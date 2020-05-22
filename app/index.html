@@ -4,109 +4,121 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 <body>
   <header>
-    <nav>
-      <div id="brand">
-        <div id="word-mark">MoGo</div>
+    <div class="container">
+      <nav>
+        <div id="brand">
+          <div id="word-mark">MoGo</div>
+        </div>
+        <ul>
+          <li><a href="#section00">About</a></li>
+          <li><a href="#section01">Service</a></li>
+          <li><a href="#section02">Work</a></li>
+          <li><a href="#section03">Blog</a></li>
+          <li><a href="#section03">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="hero-section">
+        <h3 class="subtitle">Creative Template</h3>
+        <h1 class="main-title">Welcome <br>to mogo</h1>
+        <a href="#">Learn more</a>
       </div>
-      <ul>
-        <li><a href="#section00">About</a></li>
-        <li><a href="#section01">Service</a></li>
-        <li><a href="#section02">Work</a></li>
-        <li><a href="#section03">Blog</a></li>
-        <li><a href="#section03">Contact</a></li>
-      </ul>
-    </nav>
-    <div id="hero-section">
-      <h3 class="subtitle">Creative Template</h3>
-      <h1 class="main-title">Welcome <br>to mogo</h1>
-      <a href="#">Learn more</a>
     </div>
   </header>
   <section class="services">
-    <h3 class="subtitle">We work with</h3>
-    <h2 class="title">Amazing services</h2>
-    <div class="services_list">
-      <div class="services_list__item">
-        <img src="" alt="photography" class="services_list__logo">
-        <div class="services_list__name">photography</div>
-        <div class="services_list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
+    <div class="container">
+      <div class="title_container">
+        <h3 class="subtitle">We work with</h3>
+        <h2 class="title">Amazing services</h2>  
       </div>
-      <div class="services_list__item">
-        <img src="" alt="web design" class="services_list__logo">
-        <div class="services_list__name">web design</div>
-        <div class="services_list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
-      </div>
-      <div class="services_list__item">
-        <img src="" alt="creativy" class="services_list__logo">
-        <div class="services_list__name">creativy</div>
-        <div class="services_list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
-      </div>
-      <div class="services_list__item">
-        <img src="" alt="seo" class="services_list__logo">
-        <div class="services_list__name">seo</div>
-        <div class="services_list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
-      </div>
-      <div class="services_list__item">
-        <img src="" alt="css/html" class="services_list__logo">
-        <div class="services_list__name">css/html</div>
-        <div class="services_list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
-      </div>
-      <div class="services_list__item">
-        <img src="" alt="digital" class="services_list__logo">
-        <div class="services_list__name">digital</div>
-        <div class="services_list__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
+      <div class="services_list">
+        <div class="services_list__item">
+          <span class="icon icon-photography services_list__item_logo"></span>
+          <div class="services_list__item_name">photography</div>
+          <div class="services_list__item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
+        </div>
+        <div class="services_list__item">
+          <span class="icon icon-web services_list__item_logo"></span>
+          <div class="services_list__item_name">web design</div>
+          <div class="services_list__item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
+        </div>
+        <div class="services_list__item">
+          <span class="icon icon-creative services_list__item_logo"></span>
+          <div class="services_list__item_name">creativy</div>
+          <div class="services_list__item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
+        </div>
+        <div class="services_list__item">
+          <span class="icon icon-seo services_list__item_logo"></span>
+          <div class="services_list__item_name">seo</div>
+          <div class="services_list__item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
+        </div>
+        <div class="services_list__item">
+          <span class="icon icon-html services_list__item_logo"></span>
+          <div class="services_list__item_name">css/html</div>
+          <div class="services_list__item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
+        </div>
+        <div class="services_list__item">
+          <span class="icon icon-image services_list__item_logo"></span>
+          <div class="services_list__item_name">digital</div>
+          <div class="services_list__item_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae odio minima laboriosam nemo praesentium, aspernatur totam dolorum quas, cumque aperiam.</div>
+        </div>
       </div>
     </div>
   </section>
   <section class="team">
-    <h3 class="subtitle">How we are</h3>
-    <h2 class="title">met our team</h2>
-    <div class="team_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, modi. Autem officiis nesciunt aliquam excepturi perspiciatis fuga, doloribus animi dolorum.</div>
-    <div class="team_list">
-      <div class="team_list__item">
-        <div class="team_list__info">
-          <img src="" alt="" class="team_list__avatar">
-          <nav class="team_list__social">
-            <a href="#"><i></i></a>
-            <a href="#"><i></i></a>
-            <a href="#"><i></i></a>
-            <a href="#"><i></i></a>
-          </nav>
-        </div>
-        <span class="team_list__name">matthew dix</span>
-        <span class="team_list__position">Graphic Design</span>
+    <div class="container">
+      <div class="title_container">
+        <h3 class="subtitle">How we are</h3>
+        <h2 class="title">met our team</h2>
       </div>
-      <div class="team_list__item">
-        <div class="team_list__info">
-          <img src="" alt="" class="team_list__avatar">
-          <nav class="team_list__social">
-            <a href="#"><i></i></a>
-            <a href="#"><i></i></a>
-            <a href="#"><i></i></a>
-            <a href="#"><i></i></a>
-          </nav>
+      <div class="team_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, modi. Autem officiis nesciunt aliquam excepturi perspiciatis fuga, doloribus animi dolorum.</div>
+      <div class="team_list">
+        <div class="team_list__item">
+          <div class="team_list__info">
+            <img src="" alt="" class="team_list__avatar">
+            <nav class="team_list__social">
+              <a href="#"><i></i></a>
+              <a href="#"><i></i></a>
+              <a href="#"><i></i></a>
+              <a href="#"><i></i></a>
+            </nav>
+          </div>
+          <span class="team_list__name">matthew dix</span>
+          <span class="team_list__position">Graphic Design</span>
         </div>
-        <span class="team_list__name">Cristofer Cambell</span>
-        <span class="team_list__position"></span>
-      </div>
-      <div class="team_list__item">
-        <div class="team_list__info">
-          <img src="" alt="" class="team_list__avatar">
-          <nav class="team_list__social">
-            <a href="#"><i></i></a>
-            <a href="#"><i></i></a>
-            <a href="#"><i></i></a>
-            <a href="#"><i></i></a>
-          </nav>
+        <div class="team_list__item">
+          <div class="team_list__info">
+            <img src="" alt="" class="team_list__avatar">
+            <nav class="team_list__social">
+              <a href="#"><i></i></a>
+              <a href="#"><i></i></a>
+              <a href="#"><i></i></a>
+              <a href="#"><i></i></a>
+            </nav>
+          </div>
+          <span class="team_list__name">Cristofer Cambell</span>
+          <span class="team_list__position"></span>
         </div>
-        <span class="team_list__name">Michael Fertig</span>
-        <span class="team_list__position">Developer</span>
+        <div class="team_list__item">
+          <div class="team_list__info">
+            <img src="" alt="" class="team_list__avatar">
+            <nav class="team_list__social">
+              <a href="#"><span class="icon icon-facebook"></span></a>
+              <a href="#"><span class="icon icon-instagram"></span></a>
+              <a href="#"><span class="icon icon-twitter"></span></a>
+              <a href="#"><span class="icon icon-pinterest"></span></a>
+            </nav>
+          </div>
+          <span class="team_list__name">Michael Fertig</span>
+          <span class="team_list__position">Developer</span>
+        </div>
       </div>
     </div>
   </section>
